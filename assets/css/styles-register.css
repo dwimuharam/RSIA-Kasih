@@ -1,0 +1,713 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F9F9F9;
+}
+
+/* Nabar Style */
+.navbar-brand {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    font-weight: 500;
+}
+
+.button-primary {
+    width: 77px;
+    height: 27px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    color: black
+}
+
+.button-primary:hover {
+    font-weight: 500;
+}
+
+.button-secondary {
+    width: 77px;
+    height: 27px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #235DCC;
+    color: #fff
+}
+
+.button-secondary:hover {
+    background-color: #4b7fe0;
+}
+
+/* Hero Style */
+#hero {
+    padding-bottom: 200px;
+}
+
+.img-hero {
+    height: 440px;
+    width: 668px;
+    top: 100px;
+    left: 570px;
+}
+
+.hero-tagline {
+    margin-top: 130px;
+}
+.hero-tagline h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65.75px;
+    width: 402px;
+}
+
+.hero-tagline p {
+    font-size: 12px;
+    line-height: 17.68px;
+}
+
+.button-lg-primary {
+    width: 237px;
+    height: 70px;
+    background-color: #235DCC;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.button-lg-primary:hover{
+    background-color: #4b7fe0;
+}
+
+/* Layanan Section */
+#layanan {
+    padding-top: 70px;
+    padding-bottom: 150px;
+    background-color: #F5F5F5;
+}
+
+h2 {
+    color: #235DCC;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.img-layanan {
+    width: 380px;
+    height: 313px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.card-layanan p {
+    font-size: 14px;
+}
+
+h3 {
+    color: #235DCC;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.button-layanan {
+    width: 149px;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #235DCC;
+    border-color: #235DCC;
+    background-color: #F5F5F5;
+    transition: all 0.3s ease;
+}
+
+.button-layanan:hover {
+    background-color: #235DCC;
+    color: #FFFFFF;
+    border: none;
+}
+
+.more-info a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.more-info a:hover {
+    font-weight: 400;
+}
+
+.more-info a::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -3px;
+    background-color: #FB766B;
+    height: 2px;
+    box-sizing: border-box;
+    width: 20px;
+}
+
+.text-layanan h2 {
+    margin-bottom: 10px;
+}
+/* Fasilitas */
+
+#fasilitas {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.card-fasilitas p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.card-fasilitas h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* RS Group Section */
+#group {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: #F5F5F5;
+}
+
+.text-group {
+    margin-bottom: 140px;
+}
+
+.text-group p {
+    font-size: 14px;
+}
+
+.text-group h2 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img-group-2 {
+    margin-right: 290px;
+    margin-bottom: 80px;
+}
+
+.img-group {
+    margin-bottom: 80px;
+}
+
+.button-group {
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #235DCC;
+    border-color: #235DCC;
+    background-color: #F5F5F5;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+
+.button-group:hover {
+    background-color: #235DCC;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Promo RSIA Kasih */
+#promo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bt-arrow-left-promo {
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-color: #F9F9F9;
+    margin: 5px;
+}
+
+.bt-arrow-right-promo {
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-color: #F9F9F9;
+}
+
+.text-promo p {
+    line-height: 23.44px;
+    font-size: 14px;
+}
+
+.text-promo h2 {
+    font-weight: 600;
+}
+
+.button-promo {
+    width: 149px;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #235DCC;
+    border-color: #235DCC;
+    background-color: #F5F5F5;
+    transition: all 0.3s ease;
+}
+
+.button-promo:hover {
+    background-color: #235DCC;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Chat Section */
+#chat {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F5F5F5;
+}
+
+.text-chat p {
+    margin: 5px;
+}
+
+.button-chat {
+    width: 230px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 20px;
+    color: #235DCC;
+    border-color: #FFFFFF;
+    transition: all 0.3s ease;
+}
+
+.button-chat:hover{
+    color: #FFFFFF;
+    background-color: #235DCC;
+    border: none;
+}
+
+/* Doctor Section */
+#doc {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card h5 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card p {
+    font-weight: 400;
+    color: #235DCC;
+    margin-bottom: 15px;
+}
+
+.bt-sosmed {
+    background-color: #fff;
+    border: none;
+    margin: 5px;
+}
+
+.button-doc {
+    width: 149px;
+    height: 44px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #235DCC;
+    border-color: #235DCC;
+    background-color: #F5F5F5;
+    transition: all 0.3s ease;
+}
+
+.button-doc:hover {
+    background-color: #235DCC;
+    color: #FFFFFF;
+    border: none;
+}
+
+/* Artikel Section */
+#artikel {
+    padding-top: 100px;
+    padding-bottom: 120px;
+    background-color: #F5F5F5;
+}
+
+.bt-text-artikel {
+    color: #FB766B;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.bt-text-artikel:hover {
+    font-weight: 400;
+}
+
+.artikel-text h2 {
+    margin-left: 5px;
+}
+
+.bt-artikel {
+    border: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+.card h5 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.44px;
+}
+
+.card p {
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.05px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+/* Pasien Card */
+#pasien-card {
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+.pasien-text {
+    margin-bottom: 40px;
+}
+
+.circle-foto img {
+    width: 120px;
+    padding-top: 55px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-pasien {
+    width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 50px;
+    transition: all 0.5s ease;
+}
+
+.card-pasien:hover{
+    background-color: #f6f6f6;
+    margin-top: 7px;
+}
+
+.text-pasien h3 {
+    padding-top: 112px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.text-pasien h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.text-pasien p {
+    font-size: 14px;
+    line-height: 20.51px;
+    margin-top: 17px;
+    line-height: 20.51px;
+}
+
+/* Footer Style */
+.footer {
+    background-color: #27374D;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 35px;
+    color: #fff;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #FB766B;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-left: 7px;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #FFFFFF;
+}
+
+.container-foot {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row-foot {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    color: #FB766B;
+}
+
+.container-foot hr {
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.container-foot p {
+    color: #bbbbbb;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* About */
+#about {
+    padding-bottom: 100px;
+}
+
+.bc-about {
+    background-color: #E3F4F4;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.bc-about a {
+    text-decoration: none;
+    margin-left: 170px;
+}
+
+.about-text li {
+    color: #24262b;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about-text ul {
+    margin-bottom: 50px;
+}
+
+.about-text p {
+    color: #24262b;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about-text h4 {
+    padding-top: 20px;
+}
+
+.about-text-head h2 {
+    margin-bottom: 15px;
+}
+
+.visi-misi {
+    margin-top: 40px;
+}
+
+.about-text-head p {
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+
+.img-about {
+    padding-left: 50px;
+}
+
+.img-about-1 {
+    margin-bottom: 15px;
+}
+
+.img-about-2 {
+    margin-bottom: 15px;
+}
+
+.direksi h4 {
+    margin-top: 50px;
+}
+
+/* Artikel-1 */
+.bc-artikel {
+    background-color: #E3F4F4;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.bc-artikel a {
+    text-decoration: none;
+}
+
+.bc-artikel-first {
+    margin-left: 170px;
+}
+
+#artikel-1 {
+    padding-bottom: 120px;
+}
+
+#artikel-1 h4 {
+    color: #FB766B;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#artikel-1 p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.text-content p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.btn-artikel {
+    border: none;
+    border-radius: 5px;
+    background-color: #E3F4F4;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    color: #3473e7;
+}
+
+.img-artikel {
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.btn-email {
+    margin-bottom: 3455px;
+}
+
+.recent-cat {
+    margin-bottom: 3340px;
+}
+
+.btn-cat {
+    margin-top: 10px;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    border-width: 1px;
+}
+
+.btn-cat:hover {
+    background-color: #E3F4F4;
+}
+
+.consultasion {
+    margin-bottom: 3040px;
+}
+
+/* Register Pasien Baru */
+#register-pasien {
+    padding-top: 9px;
+}
+
+.form-register {
+    padding-left: 380px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* responsive */
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
